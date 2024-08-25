@@ -1,0 +1,32 @@
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 54rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 72rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 96rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 114rem;
+    }
+}
+
+
+/* Not needed now */
+/* 
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 137rem;
+    }
+}  */
