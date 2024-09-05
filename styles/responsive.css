@@ -66,6 +66,7 @@
         transform: rotate(45deg);
         background: var(--color-primary);
         z-index: -1;
+        border-radius: 100rem;
     }
 
     .nav__btn-wrapper {
