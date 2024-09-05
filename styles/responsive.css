@@ -10,6 +10,7 @@
     }
 
     .nav {
+        padding: 0 0 0 3rem;
         display: flex;
         position: static;
         background: transparent;
@@ -115,6 +116,10 @@
     .nav__btn--border:hover {
         background: var(--color-white);
         color: var(--color-dark-grey);
+    }
+
+    .header__title {
+        font-size: 8.1rem;
     }
 }
 
