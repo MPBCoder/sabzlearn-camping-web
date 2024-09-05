@@ -6,6 +6,7 @@
 :root {
     font-size: 62.5%;
     --color-primary: #e76f51;
+    --color-secondary: #faf4f2;
     --color-white: #fff;
     --color-grey: #d2d2d2;
     --color-dark-grey: #3b3735;
@@ -33,6 +34,7 @@ html {
 body {
     line-height: 1.6;
     font-family: var(--font-primary);
+    background-color: var(--color-secondary);
     font-size: 1.6rem;
 }
 
@@ -332,4 +334,56 @@ a {
 
 .header__btn {
     margin-bottom: 25rem;
+}
+
+/* 
+
+* Main
+
+*/
+.main {
+}
+/* 
+
+* Services
+
+*/
+.services {
+    position: relative;
+    top: -10rem;
+}
+
+.services__wrapper {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.services__service {
+    color: var(--color-dark-grey);
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-white);
+    padding: 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    width: 35rem;
+}
+
+.services__service-img {
+}
+
+.services__service-title {
+    font-family: var(--font-secondary);
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin: 3.5rem 0 2rem;
+}
+
+.services__service-desc {
+    font-family: var(--font-primary);
+    font-size: 1.6rem;
 }
